@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">  
+  <ShortName>Google</ShortName>  
+  <Description>Google Search</Description>  
+  <InputEncoding>UTF-8</InputEncoding>  
+  <LongName>Google Search</LongName>  
+  <Image width="16" height="16">https://google.com/favicon.ico</Image> 
+  <Url type="text/html" method="GET" template="https://www.google.com/search?q={searchTerms}" /> 
+  <Url type="application/x-suggestions+json" method="GET" template="https://suggestqueries.google.com/complete/search?hl=ru&amp;q={searchTerms}"/> 
+ </OpenSearchDescription> 
